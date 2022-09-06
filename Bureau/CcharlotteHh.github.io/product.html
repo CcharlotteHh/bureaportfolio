@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webshop</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3875a19f9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <header>catshop.com</header>
+
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img class="logo-img" src="assets/images/logo.png" alt="logo"
+          /></a>
+        </div>
+        <ul class="nav-list" id="navList">
+          <li class="list-item">
+            <a href="#">About</a>
+          </li>
+          <li class="list-item">
+            <a href="product.html">Cats</a>
+          </li>
+          <li class="list-item">
+            <a href="#">Contact</a>
+          </li>
+          <li class="list-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+        <div class="hamburger-menu" id="toggleBtn">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </div>
+      </nav>
+      <main class="overview_filter">
+        <form action="" method="post" name="filter-form" class="filter-bar"><!--sidebar -->
+          <button class="dropdown-btn first-dropdown">Maximum Price <!--Price-->
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <div class="checkbox-container">
+            <input type="checkbox" id="price1" name="price1">         
+            <label for="price1">$200</label>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="price2" name="price2">
+            <label for="price2">$500</label>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="price3" name="price3">
+            <label for="price3">$1000</label>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="price4" name="price4">
+            <label for="price4">$2000</label>
+          </div>  
+          </div>
+          <button class="dropdown-btn">Color<!--color-->
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <div class="checkbox-container">
+            <input type="checkbox" id="color1" name="color1">
+            <label for="color1">Blue</label>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="color2" name="color2">
+            <label for="color2">Tabby</label>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="color3" name="color3">
+            <label for="color3">Orange</label>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="color4" name="color4">
+            <label for="color4">Black</label>
+          </div>
+          </div>
+          <button class="dropdown-btn">Age<!--weight-->
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <div class="checkbox-container">
+            <input type="checkbox" id="weight1" name="weight1">
+            <label for="weight1">Kitten</label>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="weight2" name="weight2">
+            <label for="weight2">Young</label>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="weight3" name="weight3">
+            <label for="weight3">Adult</label>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="weight4" name="weight4">
+            <label for="weight4">Senior</label>
+          </div>
+          </div>
+          <div class="filter-btn-container">
+        <button class="filter-btn" type="submit" name="filter-form-btn">Apply </button>
+        </form>
+      </div>
+        <div class="cat-overview"> 
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+          <article class="one-cat">
+            <figure class="onecat-picture">
+              <img src="assets/images/homepagecat.jpg" alt="" />
+            </figure>
+            <div class="onecat-info">
+              <h3>Cat name here</h3>
+              <p>Category here</p>
+              <p>price here</p>
+              <a class="buy-onecat-btn" href="productview.html">Buy</a>
+            </div>
+          </article>
+        </div>
+      </main>
+      <footer>
+        &copy; Charlotte Hage <script>document.write(new Date().getFullYear())</script>
+      </footer>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
